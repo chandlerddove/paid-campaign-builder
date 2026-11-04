@@ -1,0 +1,13 @@
+platform,campaign,ad_group,monthly_budget,audience,exclusions,age_min,age_max,exact_keywords,phrase_keywords,negative_keywords,why
+meta,META_US_Prospecting_AdvPlus,US_Broad_AdvantageAudience,,Advantage+ audience (no interest targeting),Customers_All|TrialSignups_90d,25,65,,,,One broad ad set. Creative does the targeting; exclude people who already signed up or pay us.
+meta,META_US_CreativeTesting,Test_Customer_Testimonial,2500,Advantage+ audience (no interest targeting),Customers_All|TrialSignups_90d,25,65,,,,New concept: a real agency customer on camera
+meta,META_US_CreativeTesting,Test_Demo_15s,2500,Advantage+ audience (no interest targeting),Customers_All|TrialSignups_90d,25,65,,,,New concept: 15-second cut of the product doing the work
+meta,META_US_CreativeTesting,Test_Static_ROI_Stat,2500,Advantage+ audience (no interest targeting),Customers_All|TrialSignups_90d,25,65,,,,New concept: one bold time-saved stat
+meta,META_US_CreativeTesting,Test_UGC_InHouse_Marketer,2500,Advantage+ audience (no interest targeting),Customers_All|TrialSignups_90d,25,65,,,,New persona: in-house marketer (we only have founder and agency owner today)
+meta,META_US_Retargeting_14d,Visitors_and_Viewers_14d,,WebsiteVisitors_14d|VideoViewers_50pct_14d,Customers_All|TrialSignups_90d,25,65,,,,Window back to 14 days: half the budget should go to the warmest people. Excluding trials stops paying for people who already converted.
+google,GOOG_US_Search_Brand,Brand_Core,,,,,,{brand}|{brand} seo|{brand} pricing|{brand} ai,{brand},,Exact + phrase only on our own name
+google,GOOG_US_Search_NonBrand,AI_SEO_Agent,,,,,,ai seo agent|agentic seo|ai seo tool,ai seo agent|agentic seo software,,Highest-intent theme and matches the agentic SEO content
+google,GOOG_US_Search_NonBrand,SEO_Automation,,,,,,seo automation software|automated seo tool,seo automation,,People looking to automate the work
+google,GOOG_US_Search_NonBrand,Agency_SEO_Tools,,,,,,seo software for agencies|white label seo tool,seo tools for agencies,,Agency owners: our #2 Meta ad is the agency-owner angle
+google,GOOG_US_PMax,AG_SEO_Teams_and_Agencies,,Signals: customer list | site visitors | custom segment: people searching SEO software,,,,,,,One asset group. Signals point the AI at the right people without restricting it.
+google,GOOG_UK_Search_NonBrand_Test,UK_AI_SEO_Agent,,,,,,ai seo agent|agentic seo|seo automation software,ai seo agent,,"Only the proven US themes, exact/phrase only, until UK shows it can convert"

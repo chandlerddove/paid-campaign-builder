@@ -1,0 +1,18 @@
+setting,value,what_it_means
+launch_name,Dec-2026,Name of this launch. Output files go in output/<launch_name>/
+brand_name,AgentStack,Brand name (stand-in for the fictional company). Used for brand keywords and as a negative in non-brand
+landing_page,https://www.example.com/trial,Trial signup page every ad points to. UTMs are added automatically
+total_budget_cap,120000,Hard monthly cap across all platforms
+meta_budget,65000,Planned monthly Meta budget
+google_budget,55000,Planned monthly Google budget
+cpa_target_low,250,Bottom of the trial CPA target range
+cpa_target_high,280,Top of the trial CPA target range
+days_in_month,31,Used to turn monthly budgets into daily budgets
+tracking_verified,no,Set to yes ONLY after the Meta pixel/CAPI trial event matches PostHog for 7 days. Until then everything builds PAUSED
+kill_spend_multiple,3,Kill rule: judge an ad after spend = this x target CPA (3 x $250 = $750)
+kill_max_trials,1,"Kill rule: at that spend, this many trials or fewer = cut it"
+winner_spend_multiple,6,Winner rule: need spend = this x target CPA (6 x $250 = $1500) before calling a winner
+winner_min_improvement,0.20,Winner rule: must beat the control CPA by at least this much (20%)
+min_days_before_judging,7,Never judge an ad on less than this many days
+scale_step,0.20,Scaling: raise budget by this much per step (20%)
+scale_every_days,3,Scaling: wait at least this many days between steps
